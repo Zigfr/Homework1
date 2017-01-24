@@ -3,7 +3,7 @@
     {
         $info = $_POST['info'];
         include 'model_1.php';
-        header('location: controller_2.php');
+        header('location: news.php');
         exit();
     }
 

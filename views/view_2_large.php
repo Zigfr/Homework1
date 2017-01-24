@@ -8,3 +8,8 @@ foreach($sth as $index => $new)
         echo $news;
     }
 }
+
+?>
+<br />
+<br />
+<a href ='news.php'>Back to all news </a>

@@ -17,10 +17,12 @@
 
         }
 
-        public function sellect(string $sql_2, array $notes)
+        public function sellect(string $sql_2)
         {
             $data = new PDO($this->connect, $this->username, $this->password);
             $item = $data->prepare($sql_2);
-            $item->execute($notes);
+            $item->execute();
+            $mass = $item->fetchAll();
+            return $mass;
         }
     }

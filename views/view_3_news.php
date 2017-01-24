@@ -8,7 +8,7 @@ foreach($sth as $index => $new)
     $news = $new['text'];
     $name = cut_short($news);
     $name = $name.'...';
-    echo '<ul><li><a href="/NewHomework1/controller_3.php?id='.$i.'">'.$name.'</a></li></ul>';
+    echo '<ul><li><a href="/NewHomework1/controllers/controller_3.php?id='.$i.'">'.$name.'</a></li></ul>';
     $i++;
 }
 

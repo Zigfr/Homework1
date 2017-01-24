@@ -12,4 +12,4 @@ foreach($sth as $index => $new)
 ?>
 <br />
 <br />
-<a href ='news.php'>Back to all news </a>
+<a href ='../news.php'>Back to all news </a>

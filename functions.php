@@ -1,11 +1,10 @@
 <?php
 
-function get_news($sth)
+function cut_short($article)
 {
-    foreach($sth as $index => $new)
-    {
-        echo $new['text'];
-        echo '<br />';
-        
-    }
+    $rest = substr($article, 0, 80);
+    return $rest;
+
 }
+
+?>

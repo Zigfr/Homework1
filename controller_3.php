@@ -1,10 +1,10 @@
 <?php
-include 'model_2.php';
-include 'functions.php';
+include __DIR__ .'/model_2.php';
+include __DIR__ .'/functions.php';
 
 if(isset($_GET['id']))
 {
     $id = $_GET['id'];
-    include 'views/view_2_large.php';
+    include __DIR__ .'/views/view_2_large.php';
     
 }

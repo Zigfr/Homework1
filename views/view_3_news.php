@@ -13,3 +13,6 @@ foreach($sth as $index => $new)
 }
 
 ?>
+<br />
+<br />
+<a href="form.php"> Add news you might here </a>

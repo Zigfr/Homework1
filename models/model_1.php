@@ -1,5 +1,5 @@
 <?php
-    include __DIR__ .'/autoload.php';
+    include __DIR__ . '/../autoload.php';
 
     $dat = new DB();
     $sql1 = 'INSERT INTO `mainnew` (`text`, `time_now`) VALUES (:var1, :var2)';
